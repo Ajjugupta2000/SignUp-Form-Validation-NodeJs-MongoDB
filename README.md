@@ -36,6 +36,14 @@ This Node.js project is a web application with a front-end user interface, built
 - If the password is incorrect, a "Wrong Password" message will be shown.
 - If the email is not registered, an "Invalid Email, Please Create Your Account" message will be displayed.
 
+# Project Demo
+
+
+
+https://github.com/Ajjugupta2000/SignUp-Form-Validation-NodeJs-MongoDB/assets/72141908/ff612179-06fd-4fa5-9819-2acd90ee4169
+
+
+
 Feel free to explore the application and customize it further to suit your needs
 
 ## That's it 🎉
