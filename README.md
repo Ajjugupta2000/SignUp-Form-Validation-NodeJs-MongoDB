@@ -21,7 +21,7 @@ This Node.js project is a web application with a front-end user interface, built
 - Login Success/Failure: Displays appropriate messages based on the password validation result.
 
 # How to Use
-1. Clone the Repository: git clone `[https://github.com/Ajjugupta2000/ColorPick-Eyedropper.git](https://github.com/Ajjugupta2000/SignUp-Form-Validation-NodeJs-MongoDB`
+1. Clone the Repository: git clone `https://github.com/Ajjugupta2000/SignUp-Form-Validation-NodeJs-MongoDB`
 2. Install Dependencies: `npm install`
 3. Set up MongoDB: Make sure you have MongoDB installed and running.
 4. Configure Database Connection: Update the MongoDB connection details in the conn.js file.
