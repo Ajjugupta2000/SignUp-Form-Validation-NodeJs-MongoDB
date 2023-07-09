@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Foodiv: A Food Delivery Company</title>
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary h5" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">
+        Foodiv
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <button type="button" class="btn btn-warning mx-3" onclick="openLogin()">Login</button>
+          <button type="button" class="btn btn-warning" onclick="openSignup()">Register Now</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div id="content">
+      <h1>Join the Flavorscape: Register Your Restaurant and Elevate Your Reach</h1>
+      <p>
+        Embark on an extraordinary gastronomic journey by registering your restaurant with us. Expand your culinary
+        horizons and captivate taste buds with your exquisite creations. Join our platform today and unlock a world of
+        opportunities to showcase your culinary prowess.
+      </p>
+      <button type="button" class="btn btn-warning" onclick="openSignup()">Register Now</button>
+    </div>
+
+    <div id="secImage">
+      <img src="/images/output.png" alt="">
+    </div>
+  </section>
+
+  <section id="menu">
+    <div>
+      <h2>Restaurants Registered</h2>
+    </div>
+
+    <div class="menulist">
+      <div class="commonlist">
+        <div class="commonimage">
+          <img src="images/f1.jpg" alt="">
+        </div>
+
+        <div class="commondescription">
+          <h4>Bukhara</h4>
+          <p>Exquisite flavors, elegant ambiance, and exceptional service define this renowned restaurant</p>
+          <button type="button" class="btn btn-warning">Menu</button>
+        </div>
+      </div>
+
+      <div class="commonlist">
+        <div class="commonimage">
+          <img src="images/f2.jpg" alt="">
+        </div>
+
+        <div class="commondescription">
+          <h4>Indian Accent</h4>
+          <p>Exquisite flavors, elegant ambiance, and exceptional service define this renowned restaurant</p>
+          <button type="button" class="btn btn-warning">Menu</button>
+        </div>
+      </div>
+
+      <div class="commonlist">
+        <div class="commonimage">
+          <img src="images/f3.jpg" alt="">
+        </div>
+
+        <div class="commondescription">
+          <h4>Karim's </h4>
+          <p>Exquisite flavors, elegant ambiance, and exceptional service define this renowned restaurant</p>
+          <button type="button" class="btn btn-warning">Menu</button>
+        </div>
+      </div>
+
+      <div class="commonlist">
+        <div class="commonimage">
+          <img src="images/f4.jpg" alt="">
+        </div>
+
+        <div class="commondescription">
+          <h4>Britannia & Co.</h4>
+          <p>Exquisite flavors, elegant ambiance, and exceptional service define this renowned restaurant</p>
+          <button type="button" class="btn btn-warning">Menu</button>
+        </div>
+      </div>
+
+      <div class="commonlist">
+        <div class="commonimage">
+          <img src="images/f5.jpg" alt="">
+        </div>
+
+        <div class="commondescription">
+          <h4>Khyber</h4>
+          <p>Exquisite flavors, elegant ambiance, and exceptional service define this renowned restaurant</p>
+          <button type="button" class="btn btn-warning">Menu</button>
+        </div>
+      </div>
+
+      <div class="commonlist">
+        <div class="commonimage">
+          <img src="images/f6.jpg" alt="">
+        </div>
+
+        <div class="commondescription">
+          <h4>Abhinandan</h4>
+          <p>Exquisite flavors, elegant ambiance, and exceptional service define this renowned restaurant</p>
+          <button type="button" class="btn btn-warning">Menu</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer">
+      copyright &copy; All right reserved 2021
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+  <script>
+    function openSignup() {
+      window.location.href = "/html/signup.html";
+    }
+
+    function openLogin() {
+      window.location.href = "/html/login.html";
+    }
+  </script>
+
+</body>
+
+</html>

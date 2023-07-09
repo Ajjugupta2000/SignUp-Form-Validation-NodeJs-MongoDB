@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  color: white;
+}
+.navbar-brand{
+  color: orange;
+  font-size: 27px;
+  background-color: rgb(236, 239, 249);
+  border-radius: 50%;
+  padding: 6px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.navbar-brand:hover{
+  color: black;
+}
+#home {
+  background-color: rgb(239, 233, 247);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 100%;
+  overflow: hidden;
+}
+#home h1 {
+  font-size: 35px;
+  width: 550px;
+}
+#home p {
+  width: 550px;
+  margin: 20px 0px;
+  font-size: 17px;
+}
+#secImage img{
+  height: 400px;
+  width: 600px;
+}
+#menu{
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.menulist{
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.commonlist{
+  /* border: 2px solid green; */
+  width: 330px;
+  margin: 15px;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.808);
+}
+.commonlist img{
+  width: 150px;
+  height: 150px;
+}
+.commonimage{
+  text-align: center;
+  background-color: rgb(248, 200, 112);
+  padding: 20px;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.commonimage img{
+  border-radius: 50%;
+}
+.commondescription{
+  color: white;  
+  padding: 15px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 35px;
+}
