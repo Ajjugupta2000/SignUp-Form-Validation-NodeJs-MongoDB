@@ -11,7 +11,7 @@ HTML/CSS/JavaScript (Front-end)
 # Features
 1. Restaurant Submissions: Users can submit their restaurant details, including name, pincode, location, website, phone number, email, password, and average daily transactions.
 2. Validation of Inputs:
-## Mobile Number: Validates if the mobile number is a valid 10-digit number.
+ # Mobile Number: Validates if the mobile number is a valid 10-digit number.
 Email Address: Validates if the email address is in a valid format.
 Existing Email Check: Checks if the entered email already exists in the database.
 3. User Registration: Stores the submitted restaurant details in the MongoDB database after successful validation.
