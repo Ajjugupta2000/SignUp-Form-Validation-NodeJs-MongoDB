@@ -16,5 +16,5 @@ Email Address: Validates if the email address is in a valid format.
 Existing Email Check: Checks if the entered email already exists in the database.
 3. User Registration: Stores the submitted restaurant details in the MongoDB database after successful validation.
 4. Login: Allows registered users to log in with their email and password.
- ## Password Verification: Verifies the entered password against the stored password for the corresponding email.
- ## Login Success/Failure: Displays appropriate messages based on the password validation result.
+   Password Verification: Verifies the entered password against the stored password for the corresponding email.
+   Login Success/Failure: Displays appropriate messages based on the password validation result.
