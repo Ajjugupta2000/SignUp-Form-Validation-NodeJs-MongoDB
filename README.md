@@ -3,7 +3,7 @@
 This Node.js project is a web application with a front-end user interface, built using Express.js framework and MongoDB as the database. The application allows users to register as restaurants and provides features such as restaurant submissions, login, and validation of user inputs.
 
 # Tech Stacks
-- HTML/CSS/JavaScript (Front-end)
+- HTML/CSS/JavaScript/Bootstrap(Front-end)
 - Node.js
 - Express.js
 - MongoDB
